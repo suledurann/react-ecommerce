@@ -1,3 +1,4 @@
+import "./Header.css"
 const Header = () => {
   return (
     <header>
@@ -6,7 +7,7 @@ const Header = () => {
           <p>
             SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL
             DELIVERY - OFF 50%!
-            <a href="shop.html">SHOP NOW</a>
+            <a href="shop.html"> SHOP NOW</a>
           </p>
         </div>
       </div>
