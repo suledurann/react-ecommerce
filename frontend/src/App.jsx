@@ -1,14 +1,15 @@
 import './App.css'
-import Header from './components/Header';
-import Policy from './components/Policy';
-import Footer from './components/Footer';
+import Header from './components/Layout/Header/Header';
+import Slider from './components/Slider/Sliders';
+import Policy from './components/Layout/Policy/Policy';
+import Footer from './components/Layout/Footer/Footer';
 
 function App() {
 
   return (
     <div>
       <Header/>
-     <h1>Hello</h1>
+     <Slider/>
      <Policy/>
      <Footer/>
     </div>
