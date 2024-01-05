@@ -17,7 +17,7 @@ const categories = () => {
         <CategoryItem/>
         <CategoryItem/>
       </ul>
-    </div>ğ
+    </div>
   </section>
   )
 }
