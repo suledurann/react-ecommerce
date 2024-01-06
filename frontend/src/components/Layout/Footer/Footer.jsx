@@ -1,6 +1,10 @@
+import React from "react";
+import Policy from "../Policy/Policy";
 import "./Footer.css";
 const Footer = () => {
   return (
+    <React.Fragment>
+      <Policy/>
     <footer className="footer">
       <div className="subscribe-row">
         <div className="container">
@@ -194,6 +198,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </React.Fragment>
+
   );
 };
 export default Footer;
